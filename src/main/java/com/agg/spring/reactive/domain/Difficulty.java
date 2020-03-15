@@ -1,4 +1,5 @@
 package com.agg.spring.reactive.domain;
 
-public class Difficulty {
+public enum Difficulty {
+    EASY, MODERATE, KIND_OF_HARD, HARD
 }
