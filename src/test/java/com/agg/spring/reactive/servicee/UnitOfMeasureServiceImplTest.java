@@ -1,4 +1,4 @@
-package com.agg.spring.reactive.domain.servicee;
+package com.agg.spring.reactive.servicee;
 
 
 import com.agg.spring.reactive.command.UnitOfMeasureCommand;

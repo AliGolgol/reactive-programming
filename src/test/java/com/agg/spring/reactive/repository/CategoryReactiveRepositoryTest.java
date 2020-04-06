@@ -1,4 +1,4 @@
-package com.agg.spring.reactive.domain.repository.reactive;
+package com.agg.spring.reactive.repository;
 
 import com.agg.spring.reactive.domain.Category;
 import com.agg.spring.reactive.repository.reactive.CategoryReactiveRepository;

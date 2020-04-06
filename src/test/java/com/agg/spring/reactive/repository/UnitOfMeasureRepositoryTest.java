@@ -1,10 +1,7 @@
-package com.agg.spring.reactive.domain.repository;
+package com.agg.spring.reactive.repository;
 
 import com.agg.spring.reactive.bootstrap.Bootstrap;
 import com.agg.spring.reactive.domain.UnitOfMeasure;
-import com.agg.spring.reactive.repository.CategoryRepository;
-import com.agg.spring.reactive.repository.RecipeRepository;
-import com.agg.spring.reactive.repository.UnitOfMeasureRepository;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
