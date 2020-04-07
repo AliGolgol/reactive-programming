@@ -21,12 +21,12 @@ public class CategoryToCategoryCommandTest {
 
     @Test
     public void testNullObject() throws Exception {
-//        assertNull(convter.convert(null));
+        assertNull(convter.convert(null));
     }
 
     @Test
     public void testEmptyObject() throws Exception {
-//        assertNotNull(convter.convert(new Category()));
+        assertNotNull(convter.convert(new Category()));
     }
 
     @Test
@@ -37,11 +37,11 @@ public class CategoryToCategoryCommandTest {
         category.setDescription(DESCRIPTION);
 
         //when
-//        CategoryCommand categoryCommand = convter.convert(category);
+        CategoryCommand categoryCommand = convter.convert(category);
 
         //then
-//        assertEquals(ID_VALUE, categoryCommand.getId());
-//        assertEquals(DESCRIPTION, categoryCommand.getDescription());
+        assertEquals(ID_VALUE, categoryCommand.getId());
+        assertEquals(DESCRIPTION, categoryCommand.getDescription());
 
     }
 
